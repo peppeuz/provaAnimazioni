@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark" >
+  
+
+    <Button
+        android:id="@+id/tasto_sposta"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magia?"
+        android:layout_marginTop="20sp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/testo"
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:gravity="center"
+        android:layout_weight="10"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Magia...!"
+        android:textSize="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
